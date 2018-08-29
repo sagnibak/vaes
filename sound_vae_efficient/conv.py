@@ -247,6 +247,10 @@ class GlobalGammaPooling2D(object):
             return x
 
 
+class SamplingAndFlow(object):
+    raise NotImplementedError('Implement a Flow!')
+
+
 if __name__ == '__main__':
     from keras.datasets import cifar10
 
